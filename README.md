@@ -52,6 +52,7 @@
     - args.py
     train = True  预训练模型
     test = True  SIM线上测试
+    
     - run_similarity.py
     python run一下就可以啦
     
