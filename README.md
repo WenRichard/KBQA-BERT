@@ -1,6 +1,7 @@
 # KBQA-BERT
 ## 基于知识图谱的问答系统，BERT做命名实体识别和句子相似度，分为online和outline模式
 
+
 ## Introduction
 本项目主要由两个重要的点组成，一是基于BERT的命名实体识别，二是基于BERT的句子相似度计算，本项目将这两个模块进行融合，构建基于BERT的KBQA问答系统，在命名实体识别上分为online predict和outline predict；在句子相似度上，也分为online predict和outline predict，2个模块互不干扰，做到了高内聚低耦合的效果，最后的kbqa相当于融合这2个模块进行outline predict，具体介绍请见[我的知乎专栏](https://zhuanlan.zhihu.com/p/62946533)！
 
