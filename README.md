@@ -11,10 +11,13 @@
 **A:** 这一部分我记得当初是没有足够多的数据，我把生成的test.txt copy, 改成dev.txt了。  
   
 **Q:** 你好，我下载了你的项目，但在运行run_ner的时候总是会卡在Saving checkpoint 0 to....这里，请问是什么原因呢？  
-**A:** ner部分是存在一些问题，我也没有解决，但是我没有遇到这种情况，可能很早的时候我是用cpu跑的，所以没碰到，很抱歉, 如果大家有解决问题的，可以pull，感谢！。  
+**A:** ner部分是存在一些问题，我也没有解决，但是我没有遇到这种情况，大家可以把batch_size和max_length调小一点，说不定会解决这个问题！。  
   
 **Q:** 该项目有没有相应的论文呢？  
-**A:** 回答是肯定的，有的  
+**A:** 回答是肯定的，有的，送上 [**论文传送门**!](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201705041.htm)  
+
+**Q:** 数据下载失败，不满足现有数据？  
+**A:** 数据在Data中，更多的数据在[**NLPCC2016**](http://tcci.ccf.org.cn/conference/2016/pages/page05_evadata.html) 和[**NLPCC2017**](http://tcci.ccf.org.cn/conference/2017/taskdata.php)。    
 
 **PS：这个项目有很多需要提高的地方，如果大家有好点子，欢迎pull，感谢！这段时间发论文找工作比较忙，邮件和issue没有及时回复望见谅！**
 ### ------------------------------------------- 2019/6/15 更新 ----------------------------------------  
@@ -72,8 +75,7 @@
     - kbqa_test.py
     基于KB的问答测试
   
- ### 实验分析
- 训练时间长到发指，嗯，我们实验室搞深度学习老板不给买GPU，实验都是用耐心和毅力堆出来的，在这个没人的地方吐槽下！    
+ ### 实验分析  
  ![NER图]( https://github.com/WenRichard/KBQA-BERT/raw/master/image/NER.jpg "分析图") 
  
  ![kb图]( https://github.com/WenRichard/KBQA-BERT/raw/master/image/KB.png "分析图") 
