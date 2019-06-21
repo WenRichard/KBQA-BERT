@@ -11,7 +11,7 @@
 **A:** 这一部分我记得当初是没有足够多的数据，我把生成的test.txt copy, 改成dev.txt了。  
   
 **Q:** 你好，我下载了你的项目，但在运行run_ner的时候总是会卡在Saving checkpoint 0 to....这里，请问是什么原因呢？  
-**A:** ner部分是存在一些问题，我也没有解决，但是我没有遇到这种情况，大家可以把batch_size和max_length调小一点，说不定会解决这个问题！。  
+**A:** ner部分是存在一些问题，我也没有解决，但是我没有遇到这种情况。微调bert大概需要12GB左右的显存，大家可以把batch_size和max_length调小一点，说不定会解决这个问题！。  
   
 **Q:** 该项目有没有相应的论文呢？  
 **A:** 回答是肯定的，有的，送上 [**论文传送门**!](http://www.cnki.com.cn/Article/CJFDTotal-DLXZ201705041.htm)  
