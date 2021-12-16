@@ -81,7 +81,7 @@
  ![kb图]( https://github.com/WenRichard/KBQA-BERT/raw/master/image/KB.png "分析图") 
  
  **Cite**     
-如果你在研究中使用了NER-FunTool，请按如下格式引用：  
+如果你在研究中使用了KBQA-BERT，请按如下格式引用：  
 
 ```
 @software{KBQA-BERT,
