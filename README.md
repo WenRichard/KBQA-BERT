@@ -80,6 +80,18 @@
  
  ![kb图]( https://github.com/WenRichard/KBQA-BERT/raw/master/image/KB.png "分析图") 
  
+ **Cite**     
+如果你在研究中使用了NER-FunTool，请按如下格式引用：  
+
+```
+@software{KBQA-BERT,
+  author = {ZhengWen Xie},
+  title = {KBQA-BERT: Knowledge Base Question Answering based BERT},
+  year = {2019},
+  url = {https://github.com/WenRichard/KBQA-BERT},
+}
+```
+ 
  --------------------------------------------------------------
 **如果觉得我的工作对您有帮助，请不要吝啬右上角的小星星哦！欢迎Fork和Star！也欢迎一起建设这个项目！**    
 **有时间就会更新问答相关项目，有兴趣的同学可以follow一下**  
